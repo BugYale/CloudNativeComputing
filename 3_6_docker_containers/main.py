@@ -9,7 +9,7 @@ app = Flask(__name__)
 def hello_world():
     names = {1: "Mark", 2: "Amir", 3: "Jordan", 4: "Michael"}
     name = names[randint(1, 4)]
-    return f"{name} says Hello 👋"
+    return f"{name} says GoodBye 👋"
 
 
 if __name__ == '__main__':
